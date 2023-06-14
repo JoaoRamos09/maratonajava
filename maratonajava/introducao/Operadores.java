@@ -50,7 +50,7 @@ public class Operadores {
         int contador = 0;
         contador += 1;
         contador++;
-
+        contador--;
         System.out.println(contador);
 
     }
