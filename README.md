@@ -1,3 +1,0 @@
-# maratonajava
-
-Estudo de java
