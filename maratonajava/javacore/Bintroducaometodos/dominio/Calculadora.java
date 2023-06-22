@@ -33,6 +33,31 @@ public class Calculadora {
             System.out.println("Não é possível imprimir número com 0");
             return;
         }
-        System.out.println(num1/num2);
+        System.out.println(num1 / num2);
+    }
+
+    public void AlteraDoisNumeros(int num1, int num2) {
+        num1 = 25;
+        num2 = 26;
+        System.out.println("Dentro do Altera dois numeros");
+        System.out.println(num1);
+        System.out.println(num2);
+    }
+
+    public void somaArray(int[] numeros) {
+        int soma = 0;
+        for (int aux : numeros) {
+            soma += aux;
+        }
+        System.out.println(soma);
+    }
+
+    public void somaVarArgs(int... numeros){           // o varargs deve ser sempre o ultimo parametro
+        int soma = 0;
+        for (int aux : numeros) {
+            soma += aux;
+        }
+        System.out.println(soma);
+
     }
 }

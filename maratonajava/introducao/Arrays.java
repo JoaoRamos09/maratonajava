@@ -12,7 +12,6 @@ public class Arrays {
         idade[0] = 1;
         idade[1] = 2;
         idade[2] = 3;
-        System.out.println("Teste");
 
         for (int i = 0; i < idade.length; i++) {
             System.out.println(idade[i]);
