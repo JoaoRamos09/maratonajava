@@ -1,25 +1,26 @@
 package academy.devdojo.maratonajava.javacore.Fmodificadorestatico.dominio;
 
 public class Anime {
-    private int[] episodios;
+    private static int[] episodios;
     private String nome;
 
+    // 0 Bloco de inicizalição n estatico é executado
     // 1 Alocado valor em mémoria
     // 2 Cada atributo da classe é criado e inicilizado com valor default/null
     // 3 Bloco de inicialização é executado
     // 4 Construtor é executado
 
-    {
-        episodios = new int[100];
-        System.out.println(" ");
+    static{
+        Anime.episodios = new int[100];
         System.out.println("Dentro do bloco de inicialização");
 
-        for (int i = 0; i < episodios.length; i++) {
-            episodios[i] = i + 1;
+        for (int i = 0; i < Anime.episodios.length; i++) {
+            Anime.episodios[i] = i + 1;
         }
-        for (int episodio : this.episodios) {
-            System.out.print(episodio + " ");
-        }
+    }
+
+    public static void setEpisodios(int[] episodios) {
+        Anime.episodios = episodios;
     }
 
     public Anime(String nome) {
@@ -28,9 +29,10 @@ public class Anime {
 
     public Anime() {
 
-        for (int episodio : this.episodios) {
+        for (int episodio : Anime.episodios) {
             System.out.print(episodio + " ");
         }
+        System.out.println(" ");
     }
 
     public String getNome() {
