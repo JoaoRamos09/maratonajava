@@ -5,7 +5,7 @@ public class Jogador {
     private  Time time;
 
     public Time getTime() {
-        return time;
+        return this.time;
     }
 
     public void setTime(Time time) {
@@ -19,7 +19,7 @@ public class Jogador {
 
     public void imprime() {
         System.out.println(this.nome);
-        System.out.println(time.getNome());
+        System.out.println(this.time.getNome());
         }
     public String getNome() {
         return nome;
