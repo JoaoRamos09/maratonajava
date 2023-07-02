@@ -9,7 +9,7 @@ public class CarroTest01 {
         Carro car02 = new Carro("Mustang",290);
         Carro car03 = new Carro("Masseratti",295);
 
-        Carro.setVelocidadeLimite(180);
+        Carro.setVelocidadeLimite(180);                  //metodo static mudando a instancia da variavel e afetando todos os objetos dela
 
         car01.imprime();
         car02.imprime();

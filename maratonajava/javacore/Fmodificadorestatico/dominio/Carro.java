@@ -17,7 +17,7 @@ public class Carro {
 
     public static double getVelocidadeLimite(){
         return Carro.velocidadeLimite;
-    }
+    }      // n é possivel utilizar o this dentro de um metodo static, pois n se sabe se terá um objeto ou nao
 
     public void imprime(){
         System.out.println("Nome "+this.nome);
