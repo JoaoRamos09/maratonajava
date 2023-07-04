@@ -1,17 +1,18 @@
 package academy.devdojo.maratonajava.javacore.Hheranca.dominio;
 
-public class Endereco {
+public class Endereco  {
     private String rua;
     private String cep;
 
-    Pessoa pessoa = new Pessoa();
+    Pessoa pessoa = new Pessoa("João","050.861.990-42");
+
 
     public String getRua() {
         return rua;
     }
 
     public void imprime2(){
-        System.out.println(pessoa.nome);                     // consigo acessar as variaveis de pessoa ( variavel com protect )
+        System.out.println(pessoa.nome);// consigo acessar as variaveis de pessoa ( variavel com protect )
     }
 
     public void setRua(String rua) {

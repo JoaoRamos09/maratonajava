@@ -10,7 +10,7 @@ public class Anime {
     private String estudio;
 
     public Anime(String nome, int episodio, String tipo, String genero){
-        this();
+        this();                              // quando se sobrecarrega construtores é sempre necessario q ele seja a primeira linha
         this.nome = nome;
         this.tipo = tipo;
         this.episodio = episodio;

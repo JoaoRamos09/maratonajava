@@ -4,13 +4,13 @@ public class Anime {
     private static int[] episodios;
     private String nome;
 
-    // 0 Bloco de inicizalição n estatico é executado
+    // 0 Bloco de inicizalição estatico é executado
     // 1 Alocado valor em mémoria
     // 2 Cada atributo da classe é criado e inicilizado com valor default/null
-    // 3 Bloco de inicialização é executado
+    // 3 Bloco de inicialização (objeto) é executado
     // 4 Construtor é executado
 
-    static{
+    static{                                                                                //executa apenas uma vez o bloco de inicializaçao
         Anime.episodios = new int[100];
         System.out.println("Dentro do bloco de inicialização");
 

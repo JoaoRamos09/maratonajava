@@ -10,7 +10,7 @@ public class HenracaTest01 {
         endereco.setCep("109.209-02");
         endereco.setRua("Padre Anchieta");
 
-        Pessoa pessoa = new Pessoa();
+        Pessoa pessoa = new Pessoa("João","050.861.990-42");
         pessoa.setCpf("050.861.990-42");
         pessoa.setNome("João");
         pessoa.setEndereco(endereco);
@@ -18,12 +18,13 @@ public class HenracaTest01 {
 
         System.out.println("------------------------------TESTE-----------------------------------");
 
-        Funcionario funcionario = new Funcionario();                   // com herança (extends) na classe funcionario p/pessoa
+        Funcionario funcionario = new Funcionario("João","050.861.990-42");                   // com herança (extends) na classe funcionario p/pessoa
         funcionario.setSalario(5000);
         funcionario.setCpf("100.100.100-00");
         funcionario.setNome("Jhonny");
         funcionario.setEndereco(endereco);
         funcionario.imprime();
+
 
     }
 }
