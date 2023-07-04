@@ -1,8 +1,8 @@
 package academy.devdojo.maratonajava.javacore.Gassociacao.exercise.dominio;
 
 public class Seminario {
+    private Professor professor;
     private String titulo;
-
     private Aluno[] alunos;
     private Local local;
 

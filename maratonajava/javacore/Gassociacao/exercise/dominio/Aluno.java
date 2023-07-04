@@ -3,7 +3,6 @@ package academy.devdojo.maratonajava.javacore.Gassociacao.exercise.dominio;
 public class Aluno {
     private String nome;
     private int idade;
-
     private Seminario seminario;
 
     public Seminario getSeminario() {
