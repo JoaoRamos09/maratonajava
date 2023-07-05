@@ -11,7 +11,7 @@ public class Pessoa {
         System.out.println(Pessoa.nome);
     }
     public static int getIdade() {
-        return idade;
+        return Pessoa.idade;
     }
 
     public static void setIdade(int idade) {
