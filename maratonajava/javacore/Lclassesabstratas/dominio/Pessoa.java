@@ -9,4 +9,8 @@ public abstract class Pessoa {
     }
 
     public abstract void imprime();
+
+    public void imprime1(){
+        System.out.println("aaa");
+    }
 }
