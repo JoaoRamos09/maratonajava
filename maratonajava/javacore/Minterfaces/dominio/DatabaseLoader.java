@@ -10,4 +10,8 @@ public class DatabaseLoader implements DataLoader, RemoveLoader {
     public void remove() {
         System.out.println("Removendo dados do banco de dados");
     }
+
+    public static void Test(){
+        System.out.println("Dentro do DatabaseLoader");
+    }
 }

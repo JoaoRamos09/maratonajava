@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="400f6768-a7f5-45e7-8bb0-8a7f44590eec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/maratonajava/javacore/Lclassesabstratas/dominio/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maratonajava/javacore/Lclassesabstratas/dominio/Gerente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maratonajava/javacore/Lclassesabstratas/dominio/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maratonajava/javacore/Lclassesabstratas/test/FuncionarioTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maratonajava/javacore/Minterfaces/dominio/DataLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maratonajava/javacore/Minterfaces/dominio/DatabaseLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maratonajava/javacore/Minterfaces/dominio/FileLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maratonajava/javacore/Kenum/dominio/TipoCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/maratonajava/javacore/Kenum/dominio/TipoCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/maratonajava/academy/devdojo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/maratonajava/academy/devdojo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maratonajava/javacore/Minterfaces/dominio/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/maratonajava/javacore/Minterfaces/dominio/DataLoader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
