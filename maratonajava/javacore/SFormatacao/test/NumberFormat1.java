@@ -14,7 +14,7 @@ public class NumberFormat1 {
         test[3] = java.text.NumberFormat.getInstance(local);
         double num = 10_000.03131;
         String numero = "1313131.2000";
-        Double double1 = Double.parseDouble(numero);
+        Double double1 = Double.parseDouble(numero);                     //atençao ao passar os parse pois eles devem ser da mesma fomat q a classe
 
         for (java.text.NumberFormat numberFormat : test) {
             numberFormat.setMaximumFractionDigits(2);

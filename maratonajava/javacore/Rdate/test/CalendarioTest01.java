@@ -10,6 +10,7 @@ public class CalendarioTest01 {
         Calendar c = Calendar.getInstance();
         if (c.getFirstDayOfWeek() == Calendar.SUNDAY){
             System.out.println("Domingo é um dia bala");
+
         }
         System.out.println(c.get(Calendar.DAY_OF_MONTH));
         System.out.println(c.get(Calendar.DAY_OF_YEAR));
