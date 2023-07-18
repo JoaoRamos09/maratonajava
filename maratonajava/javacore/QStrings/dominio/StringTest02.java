@@ -10,7 +10,7 @@ public class StringTest02 {
         System.out.println(nome.toLowerCase());
         System.out.println(nome.toUpperCase());
         System.out.println(nome.substring(0,2));
-        System.out.println(nome.substring(0,nome.length()));
+        System.out.println(nome.substring(2));
         System.out.println(nome1.trim());  //limpa
 
 
