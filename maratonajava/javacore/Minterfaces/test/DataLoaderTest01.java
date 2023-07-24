@@ -3,6 +3,7 @@ package academy.devdojo.maratonajava.javacore.Minterfaces.test;
 import academy.devdojo.maratonajava.javacore.Minterfaces.dominio.DataLoader;
 import academy.devdojo.maratonajava.javacore.Minterfaces.dominio.DatabaseLoader;
 import academy.devdojo.maratonajava.javacore.Minterfaces.dominio.FileLoader;
+import academy.devdojo.maratonajava.javacore.Minterfaces.dominio.RemoveLoader;
 
 public class DataLoaderTest01 {
     public static void main(String[] args) {
@@ -14,5 +15,6 @@ public class DataLoaderTest01 {
         fileLoader1.remove();
         DatabaseLoader.Test();
         DataLoader.Test();
+
     }
 }

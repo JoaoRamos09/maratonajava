@@ -8,7 +8,7 @@ import java.time.temporal.TemporalUnit;
 public class PeriodTest01 {
     public static void main(String[] args) {
         LocalDate localDate = LocalDate.now();
-        LocalDate localDate1 = LocalDate.now().plusDays(2);
+        LocalDate localDate1 = LocalDate.now().plusDays(2).plusMonths(2);
         Period period = Period.between(localDate,localDate1);
         System.out.println(period);
         System.out.println(Period.ofDays(5));

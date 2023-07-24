@@ -4,7 +4,7 @@ import java.time.Instant;
 
 public class InstantTest01 {
     public static void main(String[] args) {
-        Instant instant = Instant.now();
+        Instant instant = Instant.now();                        //instant trabalha no horario zulu
         System.out.println(instant);
         System.out.println(instant.getNano());
         System.out.println(instant.getEpochSecond());

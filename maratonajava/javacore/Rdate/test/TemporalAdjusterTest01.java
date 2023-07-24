@@ -27,5 +27,10 @@ public class TemporalAdjusterTest01 {
         System.out.println(now4);
         System.out.println(now4.getDayOfMonth());
 
+        LocalDate teste1 = LocalDate.of(2023,6,20);
+        LocalDate teste2 = LocalDate.of(2023,6,20);
+
+        System.out.println(teste1.equals(teste2));
+
     }
 }
