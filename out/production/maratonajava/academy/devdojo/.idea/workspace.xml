@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="400f6768-a7f5-45e7-8bb0-8a7f44590eec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/maratonajava/javacore/Oexception/dominio/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maratonajava/javacore/Oexception/dominio/Leitor1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maratonajava/javacore/Oexception/dominio/Leitor2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maratonajava/javacore/Oexception/dominio/LoginInvalidionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maratonajava/javacore/Oexception/dominio/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maratonajava/javacore/Oexception/exception/test/LoginInvalidationExceptionTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maratonajava/javacore/Oexception/exception/test/SobreescritaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maratonajava/javacore/Oexception/exception/test/TrywithresoucerTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maratonajava/javacore/Pwrappers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/maratonajava/academy/devdojo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/maratonajava/academy/devdojo/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d36d0a02-fe7b-49e5-a139-b89c1e8138df" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/maratonajava/mensagem.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maratonajava/mensagem_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maratonajava/mensagem_pt_BR.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,93 +18,41 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2RZInxxqvhbmHTms7pMAkCg2yAZ" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2SIJ3SLVBrLeXhfE4xAdGUeb5ZH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/João/Documents/Java/maratonajava&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/theod/OneDrive/Documents/Joao/maratonajava",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="academy.devdojo.maratonajava.javacore.Npolimorfismo.servico" />
-      <recent name="academy.devdojo.maratonajava.javacore.Npolimorfismo.test" />
-      <recent name="academy.devdojo.maratonajava.javacore.Fmodificadorestatico.dominio" />
-      <recent name="academy.devdojo.maratonajava.javacore.Dconstrutores.test" />
-      <recent name="academy.devdojo.maratonajava.javacore.Dconstrutores.dominio" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.StringTest01">
-    <configuration name="LoginInvalidationExceptionTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.devdojo.maratonajava.javacore.Oexception.exception.test.LoginInvalidationExceptionTest01" />
+}]]></component>
+  <component name="RunManager">
+    <configuration name="ResourceBundleTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="academy.devdojo.maratonajava.javacore.Tresourcebundle.test.ResourceBundleTest01" />
       <module name="maratonajava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="academy.devdojo.maratonajava.javacore.Oexception.exception.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Pwrappers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.devdojo.maratonajava.javacore.Pwrappers" />
-      <module name="maratonajava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="academy.devdojo.maratonajava.javacore.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RuntimExcepetionTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.devdojo.maratonajava.javacore.Oexception.runtime.test.RuntimExcepetionTest02" />
-      <module name="maratonajava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="academy.devdojo.maratonajava.javacore.Oexception.runtime.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.devdojo.maratonajava.javacore.QStrings.dominio.StringTest01" />
-      <module name="maratonajava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="academy.devdojo.maratonajava.javacore.QStrings.dominio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TrywithresoucerTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.devdojo.maratonajava.javacore.Oexception.exception.test.TrywithresoucerTest01" />
-      <module name="maratonajava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="academy.devdojo.maratonajava.javacore.Oexception.exception.test.*" />
+          <option name="PATTERN" value="academy.devdojo.maratonajava.javacore.Tresourcebundle.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,34 +62,23 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringTest01" />
-        <item itemvalue="Application.Pwrappers" />
-        <item itemvalue="Application.LoginInvalidationExceptionTest01" />
-        <item itemvalue="Application.TrywithresoucerTest01" />
-        <item itemvalue="Application.RuntimExcepetionTest02" />
+        <item itemvalue="Application.ResourceBundleTest01" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="400f6768-a7f5-45e7-8bb0-8a7f44590eec" name="Changes" comment="" />
-      <created>1687451346687</created>
+      <changelist id="d36d0a02-fe7b-49e5-a139-b89c1e8138df" name="Changes" comment="" />
+      <created>1688827961372</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1687451346687</updated>
+      <updated>1688827961372</updated>
+      <workItem from="1690243394614" duration="2291000" />
     </task>
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/maratonajava/javacore/Csobrecargametodos/test/AnimeTeste01.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
