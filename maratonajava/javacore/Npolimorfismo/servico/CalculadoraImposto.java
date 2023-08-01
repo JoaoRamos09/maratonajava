@@ -20,7 +20,7 @@ public class CalculadoraImposto {
             Computador computador = (Computador) produto;
             System.out.println(computador.getValidade());
         }
-        else return;
+        else System.out.println("teste"); return;
 
         }
     }

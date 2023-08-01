@@ -1,9 +1,10 @@
 package academy.devdojo.maratonajava.javacore.Uregex.test;
 
+import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class PatternMatcherTest02 {
+public class PatternMatcherTest03 {
     public static void main(String[] args) {
         // \d = retorna todos os digitos
         // \D = tudo o q n é digito
@@ -21,8 +22,10 @@ public class PatternMatcherTest02 {
         // $ fim da linha
         // . tudo o q estiver entre 2 caracteres ex 1@3 = @
 
-        String texto = "12 0x 0x 0xFFABC 0X10G 0X1";                                // assim que identificar o padrão os indices serão pulados caso tenha outro padrão reconhecido
-        String regex = "0[xX]([a-fA-F0-9])+(\\s|$)";
+        String texto = "joao@hotmail.com, 123joao@gmail.com.br, joao12321@bol.com, joao@gmail,@#@joao@jgmail.com";                                 // assim que identificar o padrão os indices serão pulados caso tenha outro padrão reconhecido
+        String regex = "[\\w]+@([\\w])+(\\.([\\w])+)+";
+        System.out.println("@#joao12321@bol.com".matches(regex));
+        System.out.println(texto.split(", ")[1].trim());
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(texto);
         System.out.println(" texto: "+texto);
