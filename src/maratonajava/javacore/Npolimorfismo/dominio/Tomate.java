@@ -2,7 +2,7 @@ package academy.devdojo.maratonajava.javacore.Npolimorfismo.dominio;
 
 import javax.swing.*;
 
-public class Tomate extends Produto {
+public class Tomate extends academy.devdojo.maratonajava.javacore.Npolimorfismo.dominio.Produto{
     private int dataDeValide;         //essa variavel nunca poderá ser chamada pois estou iniciando o objeto como Produto
     public static final double IMPOSTO_POR_PRODUTO = 0.21;
     public Tomate(String nome, double valor) {
