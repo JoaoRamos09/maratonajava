@@ -9,7 +9,7 @@ import java.nio.file.StandardCopyOption;
 
 public class PathTest02 {
     public static void main(String[] args) throws IOException {
-        Path path = Paths.get("pasta");            // é preciso verificar se o arquivo n existe, se n lança exception
+        Path path = Paths.get("pasta");                // é preciso verificar se o arquivo n existe, se n lança exception
         if (Files.notExists(path)) {
             Path path1 = Files.createDirectory(path);
         }
@@ -22,7 +22,7 @@ public class PathTest02 {
             Path path5 = Files.createFile(path4);
         }
 
-        Path path6 = path4;                                    //copiando um arquivo e renomeando ele, n sendo necessario verificar se ele existe e passando tudo que contém nele para a copia
+        Path path6 = path4;                                       //copiando um arquivo e renomeando ele, n sendo necessario verificar se ele existe e passando tudo que contém nele para a copia
         Path path7 = Paths.get(path4.getParent().toString(),"renomeado.txt");
         Path path8 = Files.copy(path6,path7, StandardCopyOption.REPLACE_EXISTING);
     }
