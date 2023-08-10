@@ -1,13 +1,16 @@
 package academy.devdojo.src.maratonajava.javacore.Wnio;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.sql.SQLOutput;
 
 public class RelativazeTest01 {
-    public static void main(String[] args) {
-        Path path1 = Paths.get("/home/joao");
-        Path path2 = Paths.get("/home/joao/dev/coisinha");
+    public static void main(String[] args) throws IOException {
+        Path path1 = Paths.get("/home");
+        Path path2 = Paths.get("/home/joao/dev/text.txt");
         System.out.println(path1.relativize(path2));
 
         Path path3 = Paths.get("/home/joao");
@@ -21,7 +24,8 @@ public class RelativazeTest01 {
         System.out.println("3 "+path3.relativize(path4));
         System.out.println("4 "+path6.relativize(path7));
         System.out.println("5 "+path7.relativize(path6));
-        System.out.println("6 "+path5.relativize(path6));              // n funciona pois absoluto e relativo n conseguem se conectar ja q nunca se sabe onde está o relativo
+        //System.out.println("6 "+path5.relativize(path6));// n funciona pois absoluto e relativo n conseguem se conectar ja q nunca se sabe onde está o relativo
+        System.out.println("7 "+path7.relativize(path6));
 
     }
 }
