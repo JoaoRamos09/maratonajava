@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.javacore.Npolimorfismo.dominio;
+package academy.devdojo.src.maratonajava.javacore.Npolimorfismo.dominio;
 
-public class Computador extends academy.devdojo.maratonajava.javacore.Npolimorfismo.dominio.Produto{
+public class Computador extends Produto{
 
     private int validade;
     public static final double IMPOSTO_POR_PRODUTO = 0.25;

@@ -1,10 +1,9 @@
-package academy.devdojo.maratonajava.javacore.Npolimorfismo.test;
+package academy.devdojo.src.maratonajava.javacore.Npolimorfismo.test;
 
-import academy.devdojo.maratonajava.javacore.Npolimorfismo.dominio.Computador;
-import academy.devdojo.maratonajava.javacore.Npolimorfismo.dominio.Produto;
-import academy.devdojo.maratonajava.javacore.Npolimorfismo.dominio.Televisão;
-import academy.devdojo.maratonajava.javacore.Npolimorfismo.dominio.Tomate;
-import academy.devdojo.maratonajava.javacore.Npolimorfismo.servico.CalculadoraImposto;
+import academy.devdojo.src.maratonajava.javacore.Npolimorfismo.dominio.*;
+import academy.devdojo.src.maratonajava.javacore.Npolimorfismo.servico.CalculadoraImposto;
+
+import java.lang.annotation.Target;
 
 public class ProdutoTest01 {
     public static void main(String[] args) {
@@ -16,5 +15,8 @@ public class ProdutoTest01 {
         CalculadoraImposto.CalcularImposto(tomate1);
         System.out.println("------------------------");
         CalculadoraImposto.CalcularImposto(televisao1);
+
+        Taxavel taxavel = new Computador("carlos",24);
+        taxavel.CalcularImposto();
         }
 }

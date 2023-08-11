@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.javacore.Npolimorfismo.dominio;
+package academy.devdojo.src.maratonajava.javacore.Npolimorfismo.dominio;
 
-public abstract class  Produto implements academy.devdojo.maratonajava.javacore.Npolimorfismo.dominio.Taxavel {
+public abstract class  Produto implements Taxavel {
     protected String nome;
     protected double valor;
 
