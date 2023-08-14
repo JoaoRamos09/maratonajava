@@ -15,8 +15,5 @@ public class ProdutoTest01 {
         CalculadoraImposto.CalcularImposto(tomate1);
         System.out.println("------------------------");
         CalculadoraImposto.CalcularImposto(televisao1);
-
-        Taxavel taxavel = new Computador("carlos",24);
-        taxavel.CalcularImposto();
         }
 }

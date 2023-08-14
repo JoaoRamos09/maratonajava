@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Jmodificadorfinal.dominio;
+package academy.devdojo.src.maratonajava.javacore.Jmodificadorfinal.dominio;
 
 public class Ferrari extends Carro{
 
