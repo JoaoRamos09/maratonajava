@@ -16,7 +16,7 @@ public class collectionsTest01 {
         System.out.println(text2 == text3);                   // compara se a referencia da string é a mesma
         System.out.println(text1.equals(text3));              // compara se o valor da string é a mesma
         System.out.println(text3.equals(text1));
-        System.out.println(pessoa1.equals(pessoa2));           //compara se os objetos fazem referencia para o mesmo local em memoria
+        System.out.println(pessoa1.equals(pessoa2));       //compara se os objetos fazem referencia para o mesmo local em memoria
 
     }
 
