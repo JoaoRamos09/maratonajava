@@ -22,7 +22,7 @@ public class ListTest01 {
         }
 
         System.out.println("---------------");
-        lista.add("juan");
+        lista.add("Juan".toUpperCase());
 
         for (int i = 0; i < lista.size(); i++) {
             System.out.println(lista.get(i));
@@ -32,7 +32,7 @@ public class ListTest01 {
 
         System.out.println("Escolha a pessoa que deseje excluir");
         String nome = scanner.next();
-        lista.remove(nome);
+        lista.remove(nome.toUpperCase());
 
 
         System.out.println("---------------------------------------------");
