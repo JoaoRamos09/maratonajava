@@ -1,13 +1,15 @@
 package academy.devdojo.src.maratonajava.javacore.Ycollections.dominio;
 
+import java.util.Collection;
+import java.util.Comparator;
 import java.util.Objects;
 
-public class TeamSoccer {
+public class TeamSoccer implements Comparable<TeamSoccer> {
     private String name;
     private String color;
-    private int id;
+    private Long id;
 
-    public TeamSoccer(String name, String color, int id) {
+    public TeamSoccer(String name, String color, Long id) {
         Objects.requireNonNull(name);
         Objects.requireNonNull(color);
         this.name = name;
@@ -28,6 +30,15 @@ public class TeamSoccer {
         return Objects.hash(name, color, id);
     }
 
+    @Override
+    public String toString() {
+        return "TeamSoccer{" +
+                "name='" + name + '\'' +
+                ", color='" + color + '\'' +
+                ", id=" + id +
+                '}';
+    }
+
     public String getName() {
         return name;
     }
@@ -44,11 +55,19 @@ public class TeamSoccer {
         this.color = color;
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setId(Long id) {this.id = id;}
+
+    @Override
+    public int compareTo(TeamSoccer o) {
+        //if (this.getId() < o.getId()) return -1;              == sempre q for comparar variavel primitiva
+        //else if (this.getId() == o.getId()) return 0;
+        //else return 1;
+        //return this.id.compareTo(o.getId());               == para variaeis wrapper, long, string, etc
+        return this.getName().compareTo(o.getName());
     }
+
 }
