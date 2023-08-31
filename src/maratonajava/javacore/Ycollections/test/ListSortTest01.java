@@ -1,4 +1,4 @@
-package academy.devdojo.src.maratonajava.javacore.Ycollections.test;
+package maratonajava.javacore.Ycollections.test;
 
 import java.util.ArrayList;
 import java.util.Collection;

@@ -1,6 +1,6 @@
-package academy.devdojo.src.maratonajava.javacore.Ycollections.test;
+package maratonajava.javacore.Ycollections.test;
 
-import academy.devdojo.src.maratonajava.javacore.Ycollections.dominio.TeamSoccer;
+import maratonajava.javacore.Ycollections.dominio.TeamSoccer;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package academy.devdojo.src.maratonajava.javacore.Ycollections.dominio;
+package maratonajava.javacore.Ycollections.dominio;
 
 import java.util.Collection;
 import java.util.Comparator;
