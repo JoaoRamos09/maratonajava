@@ -22,7 +22,7 @@ public class TeamSoccer implements Comparable<TeamSoccer> {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         TeamSoccer that = (TeamSoccer) o;
-        return id == that.id && Objects.equals(name, that.name) && Objects.equals(color, that.color);
+        return Objects.equals(id, that.id) && Objects.equals(name, that.name) && Objects.equals(color, that.color);
     }
 
     @Override
@@ -67,7 +67,7 @@ public class TeamSoccer implements Comparable<TeamSoccer> {
         //else if (this.getId() == o.getId()) return 0;
         //else return 1;
         //return this.id.compareTo(o.getId());               == para variaeis wrapper, long, string, etc
-        return this.getName().compareTo(o.getName());
+        return this.getColor().compareTo(o.getColor());
     }
 
 }
