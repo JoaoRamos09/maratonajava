@@ -73,5 +73,12 @@ public class NavagibleSetTest01 {
         System.out.println(soccerSet.floor(time1));        // <=
         System.out.println(soccerSet.higher(time2));          //   >
         System.out.println(soccerSet.ceiling(time2));         // >=
+
+        System.out.println(soccerSet.size());
+        System.out.println(soccerSet.pollFirst());
+
+        System.out.println(soccerSet.size());
+        System.out.println(soccerSet.pollLast());
+        System.out.println(soccerSet.size());
     }
 }

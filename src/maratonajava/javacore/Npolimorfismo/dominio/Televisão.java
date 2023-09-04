@@ -1,4 +1,4 @@
-package academy.devdojo.src.maratonajava.javacore.Npolimorfismo.dominio;
+package maratonajava.javacore.Npolimorfismo.dominio;
 
 public class Televisão extends Produto{
     public static final double IMPOSTO_POR_PRODUTO = 0.25;

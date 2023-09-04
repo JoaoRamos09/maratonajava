@@ -1,4 +1,4 @@
-package academy.devdojo.src.maratonajava.javacore.Npolimorfismo.dominio;
+package maratonajava.javacore.Npolimorfismo.dominio;
 
 public class Computador extends Produto{
 

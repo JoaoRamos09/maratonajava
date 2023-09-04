@@ -1,6 +1,6 @@
-package academy.devdojo.maratonajava.javacore.Npolimorfismo.servico;
+package maratonajava.javacore.Npolimorfismo.servico;
 
-import academy.devdojo.maratonajava.javacore.Npolimorfismo.repositorio.Repositorio;
+import maratonajava.javacore.Npolimorfismo.repositorio.Repositorio;
 
 public class RepositorioBancodeDados implements Repositorio {
     @Override

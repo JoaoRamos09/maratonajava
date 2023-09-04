@@ -1,8 +1,8 @@
-package academy.devdojo.maratonajava.javacore.Npolimorfismo.test;
+package maratonajava.javacore.Npolimorfismo.test;
 
-import academy.devdojo.maratonajava.javacore.Npolimorfismo.repositorio.Repositorio;
-import academy.devdojo.maratonajava.javacore.Npolimorfismo.servico.RepositorioArquivo;
-import academy.devdojo.maratonajava.javacore.Npolimorfismo.servico.RepositorioMemoria;
+import maratonajava.javacore.Npolimorfismo.repositorio.Repositorio;
+import maratonajava.javacore.Npolimorfismo.servico.RepositorioArquivo;
+import maratonajava.javacore.Npolimorfismo.servico.RepositorioMemoria;
 
 public class RepositorioTest01 {
     public static void main(String[] args) {

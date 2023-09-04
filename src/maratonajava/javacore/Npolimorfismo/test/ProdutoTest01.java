@@ -1,7 +1,7 @@
-package academy.devdojo.src.maratonajava.javacore.Npolimorfismo.test;
+package maratonajava.javacore.Npolimorfismo.test;
 
-import academy.devdojo.src.maratonajava.javacore.Npolimorfismo.dominio.*;
-import academy.devdojo.src.maratonajava.javacore.Npolimorfismo.servico.CalculadoraImposto;
+import maratonajava.javacore.Npolimorfismo.dominio.*;
+import maratonajava.javacore.Npolimorfismo.servico.CalculadoraImposto;
 
 import java.lang.annotation.Target;
 
