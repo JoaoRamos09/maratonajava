@@ -25,7 +25,7 @@ class soccerComparator implements Comparator<TeamSoccer>{
 }
 public class NavagibleSetTest01 {
     public static void main(String[] args) {
-        NavigableSet<Pessoa> pessoaSet = new TreeSet<>(new pessoaComparator());       //como é set só aceita valor unicis ( equals ) e necessita ter um comparator ou um comparable na classe
+        NavigableSet<Pessoa> pessoaSet = new TreeSet<>(new pessoaComparator());       //só aceita valor unicis ( equals ) e necessita ter um comparator ou um comparable na classe
         Pessoa pessoa1 = new Pessoa("Joao","Ramos");
         Pessoa pessoa2 = new Pessoa("Pedro","Rodrigues");
         Pessoa pessoa3 = new Pessoa("Vinicius","Cagao");
