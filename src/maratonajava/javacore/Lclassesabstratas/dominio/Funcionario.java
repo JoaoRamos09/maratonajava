@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Lclassesabstratas.dominio;
+package maratonajava.javacore.Lclassesabstratas.dominio;
 
 public abstract class  Funcionario extends Pessoa{
     protected double salario;

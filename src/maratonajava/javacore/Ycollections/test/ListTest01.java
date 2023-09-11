@@ -10,32 +10,38 @@ public class ListTest01 {
         List<String> lista = new ArrayList<>();
         lista.add("João");
         lista.add("Carlos");
+        lista.add("Pedro");
+        lista.add("Joao");
+        lista.add("Theo");
+        lista.add("Paulo");
 
-        List<String> listas1 = new ArrayList<>();
-        listas1.add("Pedro");
-        listas1.add("Bernardo");
+        //List<String> listas1 = new ArrayList<>();
+        //listas1.add("Pedro");
+        //listas1.add("Joao");
+        //listas1.add("Theo");
+        //listas1.add("Paulo");
 
-        lista.addAll(listas1);
+        //lista.addAll(listas1);
 
-        for (String nome : lista) {
-            System.out.println(nome);
+        //for (String nome : lista) {
+            //System.out.println(nome);
+        //}
+
+        System.out.println("Lista de Nomes");
+        System.out.println("-------------");
+        for ( String string : lista) {
+            System.out.println(string);
         }
-
-        System.out.println("---------------");
-        lista.add("Juan".toUpperCase());
-
-        for (int i = 0; i < lista.size(); i++) {
-            System.out.println(lista.get(i));
-        }
+        System.out.println("-------------------");
 
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Escolha a pessoa que deseje excluir");
         String nome = scanner.next();
-        lista.remove(nome.toUpperCase());
-
+        lista.remove(nome);
 
         System.out.println("---------------------------------------------");
+        System.out.println("Nova Lista Atualizada");
         for (String nomes: lista ) {
             System.out.println(nomes);
         }
