@@ -13,4 +13,8 @@ public abstract class Veiculo {
                 "name='" + name + '\'' +
                 '}';
     }
+
+    public String getName() {
+        return name;
+    }
 }
