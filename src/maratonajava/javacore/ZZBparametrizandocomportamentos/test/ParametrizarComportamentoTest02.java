@@ -24,13 +24,14 @@ public class ParametrizarComportamentoTest02 {
                 return car.getColor().equals("rosa");
             }
         });
+       
+       
        printList(list1);
-
        List<Integer> integerList = List.of(1,2,3,4,5,6);
-
        List<Integer> integerList1 = filter(integerList, integer -> integer % 2 == 0);
-
        printList(integerList1);
+       
+       List<Integer> integerList2 = filter(integerList,numerous -> numerous % 2 == 0);
     }
     public static List<Car> listFilter(List<Car> list, CarPredicate carPredicate){
         List<Car> listFilter = new ArrayList<>();
