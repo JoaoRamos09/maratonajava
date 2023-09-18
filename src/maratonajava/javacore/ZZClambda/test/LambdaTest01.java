@@ -13,6 +13,8 @@ public class LambdaTest01 {
             }
         });
 
+        list.forEach((Integer integer) -> System.out.println(integer));
+
         System.out.println(list);
 
         forEach(list,(Integer integer) -> System.out.println(integer));
