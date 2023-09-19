@@ -8,6 +8,8 @@ public class MethodReferenceTest03 {
 
         Function<String, Integer> function = Integer::parseInt;
         int x = function.apply("10");
+
+        int z = Integer.parseInt("5");
         System.out.println(x);
     }
 }

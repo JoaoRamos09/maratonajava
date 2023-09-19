@@ -17,7 +17,14 @@ public class LambdaTest02 {
         List<String> stringList = map(integerList,(Integer e) -> e.toString());
         List<Integer> integerList1 = map(list,(String e) -> e.length());
         List<String> stringList1 = map(list,(String e) -> e.toUpperCase());
-        List<Integer> integerList2 = map(list, (String e) -> Integer.parseInt(e));
+        List<Integer> integerList2 = map(list, Integer::parseInt);
+        List<Integer> integerList3 = map(list, new Function<String, Integer>() {
+            @Override
+            public Integer apply(String s) {
+
+                return Integer.parseInt(s);
+            }
+        });
 
         integerList.removeIf(s -> s.equals(2));
         System.out.println(integerList);
