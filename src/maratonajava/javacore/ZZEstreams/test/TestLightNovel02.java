@@ -16,11 +16,10 @@ public class TestLightNovel02 {
             new LightNovel("Olha oque ele fez",3.99)));
 
     public static void main(String[] args) {
-         List<String> list1 = list.stream()
+        list.stream()
                 .sorted(Comparator.comparing(LightNovel::getPrice))
-                .filter(lightNovel -> lightNovel.getPrice() <= 4 )
+                .filter(lightNovel -> lightNovel.getPrice() <= 25 )
                 .map(LightNovel::getTile)
-                .limit(3)
-                 .collect(Collectors.toList());
+                .limit(3).forEach(ln -> System.out.println(ln));
     }
 }

@@ -1,5 +1,7 @@
 package maratonajava.javacore.ZZEstreams.domain;
 
+import java.util.Objects;
+
 public class LightNovel {
     private String tile;
     private double price;
@@ -15,6 +17,19 @@ public class LightNovel {
                 "tile='" + tile + '\'' +
                 ", price=" + price +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        LightNovel that = (LightNovel) o;
+        return Objects.equals(tile, that.tile);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(tile);
     }
 
     public String getTile() {
