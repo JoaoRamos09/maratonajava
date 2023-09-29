@@ -3,6 +3,7 @@ package maratonajava.javacore.ZZEstreams.test;
 import maratonajava.javacore.ZZEstreams.domain.LightNovel;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 public class StreamTest03 {
@@ -17,5 +18,21 @@ public class StreamTest03 {
         System.out.println(list.stream().anyMatch(ln -> ln.getPrice() < 4));
         System.out.println(list.stream().allMatch(ln -> ln.getPrice() > 0));
         System.out.println(list.stream().noneMatch(ln -> ln.getPrice() < 0));
+
+//        list.sort(Comparator.comparing(LightNovel::getPrice));
+        list.stream().filter(ln -> ln.getPrice() < 7).findAny().ifPresent(System.out::println);
+
+        list.stream()
+                .filter(ln -> ln.getPrice() < 7)
+                .sorted(Comparator.comparing(LightNovel::getPrice))
+                .findFirst()
+                .ifPresent(System.out::println);
+
+        // os 2 metodos são iguais só mudam a sintaxe
+
+        list.stream()
+                .filter(ln -> ln.getPrice() < 7)
+                .min(Comparator.comparing(LightNovel::getPrice))
+                .ifPresent(System.out::println);
     }
 }
