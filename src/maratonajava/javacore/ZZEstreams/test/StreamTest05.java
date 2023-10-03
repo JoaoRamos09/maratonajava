@@ -14,6 +14,7 @@ public class StreamTest05 {
                 new LightNovel("Toca a Música",10.5),
                 new LightNovel("Olha oque ele fez",3.99)));
 
+
         list.stream()
                 .map(LightNovel::getPrice)
                 .filter(price -> price > 5)
