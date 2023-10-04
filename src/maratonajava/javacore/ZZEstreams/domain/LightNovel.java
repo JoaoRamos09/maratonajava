@@ -6,9 +6,17 @@ public class LightNovel {
     private String tile;
     private double price;
 
+    private Category categoryEnum;
+
     public LightNovel(String tile, double price) {
         this.tile = tile;
         this.price = price;
+    }
+
+    public LightNovel(String tile, double price, Category categoryEnum) {
+        this.tile = tile;
+        this.price = price;
+        this.categoryEnum = categoryEnum;
     }
 
     @Override
@@ -16,6 +24,7 @@ public class LightNovel {
         return "LightNovel{" +
                 "tile='" + tile + '\'' +
                 ", price=" + price +
+                ", categoryEnum=" + categoryEnum +
                 '}';
     }
 
@@ -46,5 +55,9 @@ public class LightNovel {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    public Category getCategoryEnum() {
+        return categoryEnum;
     }
 }
